@@ -1,42 +1,8 @@
 <!DOCTYPE html>
-<html>
-
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Welcome : " />
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Welcome</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/ValentinesDay/Welcome">View on GitHub</a>
-
-          <h1 id="project_title">Welcome</h1>
-          <h2 id="project_tagline"></h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/ValentinesDay/Welcome/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/ValentinesDay/Welcome/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <p>&lt;!DOCTYPE html&gt;
-</p>
-
-<p></p>
-
-
+<head>
+<script src="/assets/jquery.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+<style>
 body {
   font-family: 'Press Start 2P', cursive;
   position: relative;
@@ -118,41 +84,24 @@ small {
   background-repeat: no-repeat;
   background-size: 350px
 }
-<p>
-</p>
-
-<h1>
-<a name="mike--eli" class="anchor" href="#mike--eli"><span class="octicon octicon-link"></span></a>Mike &amp; Eli</h1>
-
-<h2>
-<a name="a-geeky-love-story" class="anchor" href="#a-geeky-love-story"><span class="octicon octicon-link"></span></a>a geeky love story</h2>
-
-<pre><code>&lt;ul&gt;
-  &lt;li&gt;&lt;a href="#"&gt;&lt;a href="http://www.msn.com"&gt;Our Story&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="#"&gt;&lt;a href="http://www.yahoo.com"&gt;Recipe for Love&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="#"&gt;&lt;a href="http://www.cnn.com"&gt;Solve for i&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="#"&gt;&lt;a href="http://www.facebook.com"&gt;00111111&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="#"&gt;&lt;a href="http://www.mu.edu"&gt;Mad Libs&lt;/a&gt;&lt;/li&gt;
-</code></pre>
-
-<div>
-  <p>welcome<br>Welcome to our website!
-</p>
+</style>
+</head>
+<body>
+<h1>Mike & Eli</h1>
+<h2>a geeky love story</h2>
+    <ul>
+      <li><a href="#"><a href="http://www.msn.com">Our Story</a></a></li>
+      <li><a href="#"><a href="http://www.yahoo.com">Recipe for Love</a></li>
+      <li><a href="#"><a href="http://www.cnn.com">Solve for i</a></li>
+      <li><a href="#"><a href="http://www.facebook.com">00111111</a></li>
+      <li><a href="#"><a href="http://www.mu.edu">Mad Libs</a></li>
+<div class="Welcome">
+  <p>welcome<br />
+  <small>Welcome to our website!
 </div>
-
-<p></p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Welcome maintained by <a href="https://github.com/ValentinesDay">ValentinesDay</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
-</html>
+<script>
+  $('div').on('click', function() {
+      $(this).toggleClass('show-description');
+  });
+</script>
+</body>
