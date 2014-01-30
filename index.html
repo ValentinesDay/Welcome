@@ -7,20 +7,21 @@ body {
   font-family: 'Press Start 2P', cursive;
   position: relative;
   max-width: 600px;
-  background: black;
+  background: url("http://img1.etsystatic.com/000/0/5605790/il_570xN.317431097.jpg");
+  background-size: 1100px;
+  background-position: center;
 }
 ul {
   width: 1000px;
   position: relative;
   padding: 10px;
-  background: black;
 }
 li {
   position: relative;
   left: 70px;
   display: inline;
   padding: 10px 10px 10px 10px;
-  color: white;
+  color: black;
 }
 h1 {
   position: relative;
@@ -28,14 +29,14 @@ h1 {
   font-family: 'Press Start 2P', cursive;
   text-align: relative;
   font-size: 50px;
-  color: white;
+  color: black;
   margin: 60px 0 0 0;
 }
 h2 {
   position: relative;
   left: 395px;
   text-align: relative;
-  color: white;
+  color: black;
   margin: 60px 0 0px 0;
 }
 div {
@@ -56,7 +57,7 @@ p {
   background:-moz-linear-gradient(bottom,rgba(0,0,0,1), rgba(0,0,0,.4));
   color: rgba(255,255,255,1);
   opacity: .9;
-  background: black;
+  background: white;
   background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
   padding: 5px;
   line-height: 28px;
@@ -68,21 +69,13 @@ p {
   width: 1000px; 
   transition: height .5s;
   border-radius: 0;
-}
-small {
-  opacity: 0;
+  color: black;
 }
 .show-description p {
   height: 250px;
 }
 .show-description small {
   opacity: 1;
-}
-.welcome {
-  background-image: url("http://img1.etsystatic.com/000/0/5605790/il_570xN.317431097.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 350px
 }
 </style>
 </head>
@@ -96,12 +89,6 @@ small {
       <li><a href="#"><a href="http://valentinesday.github.io/00111111/">00111111</a></li>
       <li><a href="#"><a href="http://valentinesday.github.io/Mad-Libs">Mad Libs</a></li>
 <div class="Welcome">
-  <p>welcome<br />
-  <small>Welcome to our website!
+  <p>Mike,</br>SPECIAL NOTE TO MIKE.</br>Love,</br>Eli
 </div>
-<script>
-  $('div').on('click', function() {
-      $(this).toggleClass('show-description');
-  });
-</script>
 </body>
